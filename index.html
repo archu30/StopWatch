@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+ <html>
+<head>
+    <!-- Name of the project -->
+    <title>Stopwatch</title>
+    <!-- CSS file with styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="name">Stopwatch</h1>
+    <!-- It is a container which contains the StopWatch -->
+    <div class="container">
+        <!-- To display the time -->
+        <h1 id="displayTime">00:00:00.000</h1>
+        <!-- Buttons for different functionality -->
+        <div class="buttons">
+            <!-- Stop button with onclick function to stop the stopwatch -->
+            <img src="image/stop.png" alt="stop" onclick="watchStop()">
+            <!-- Start button with onclick function to start the stopwatch -->
+            <img src="image/start.png" alt="start" onclick="watchStart()">
+            <!-- Reset button with onclick function to reset the stopwatch -->
+            <img src="image/reset.png" alt="reset" onclick="watchReset()">
+        </div>
+    </div>
+    <!-- javascript file with all the functionalities -->
+    <script src="script.js"></script>
+</body>
+</html>
